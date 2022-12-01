@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+/* Global Styles */
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style-type: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+h2{
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border: 2px solid;
+  padding: 4.75px;
+}
+h1{
+  color: white;
+  font-size: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+}
+button{
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: .5rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: #ffffff;
+}
+ul{
+  display: flex;
+  gap: 1rem;
+
+}
+
+/* Navbar */
+.navbar{
+  height: 4rem;
+  padding: 1rem;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main */
+.main{
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.select-color{
+  background-color: black;
+  padding: .75rem;
+  border-radius: 15px;
+}
+
+/* Media queries */
+@media screen and (min-width: 992px) {
+  h1{
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
