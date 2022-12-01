@@ -1,6 +1,6 @@
 # Color Flipper
 
-[Live Website]()
+[Live Website](https://colorflipper-project.netlify.app/)
 
 ## This website has two pages :- 
 - Simple.html (displays random color selected from the provided array of colors).
